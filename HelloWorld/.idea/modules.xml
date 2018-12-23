@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../untitled1/.idea/modules/DelegateDemo.iml" filepath="$PROJECT_DIR$/../untitled1/.idea/modules/DelegateDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../untitled3/.idea/modules/GradleJavaDemo.iml" filepath="$PROJECT_DIR$/../untitled3/.idea/modules/GradleJavaDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GradleJavaDemo_main.iml" filepath="$PROJECT_DIR$/.idea/modules/GradleJavaDemo_main.iml" group="GradleJavaDemo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GradleJavaDemo_test.iml" filepath="$PROJECT_DIR$/.idea/modules/GradleJavaDemo_test.iml" group="GradleJavaDemo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GradleLifeCycleDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/GradleLifeCycleDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GradleSampleWebApp.iml" filepath="$PROJECT_DIR$/.idea/modules/GradleSampleWebApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GradleSampleWebApp_main.iml" filepath="$PROJECT_DIR$/.idea/modules/GradleSampleWebApp_main.iml" group="GradleSampleWebApp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GradleSampleWebApp_test.iml" filepath="$PROJECT_DIR$/.idea/modules/GradleSampleWebApp_test.iml" group="GradleSampleWebApp" />
+      <module fileurl="file://$PROJECT_DIR$/../untitled/.idea/modules/GradleTaskDemo.iml" filepath="$PROJECT_DIR$/../untitled/.idea/modules/GradleTaskDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HelloWorld.iml" filepath="$PROJECT_DIR$/.idea/modules/HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../untitled2/.idea/modules/TasksDependencyDemo.iml" filepath="$PROJECT_DIR$/../untitled2/.idea/modules/TasksDependencyDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/allAboutNumbers.iml" filepath="$PROJECT_DIR$/.idea/modules/allAboutNumbers.iml" />
+      <module fileurl="file://$USER_HOME$/.gradle/init.d/init.d.iml" filepath="$USER_HOME$/.gradle/init.d/init.d.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pickerNumberApplication1/pickerNumberApplication1.iml" filepath="$PROJECT_DIR$/.idea/modules/pickerNumberApplication1/pickerNumberApplication1.iml" group="pickerNumberApplication1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pickerNumberApplication1/pickerNumberApplication1_main.iml" filepath="$PROJECT_DIR$/.idea/modules/pickerNumberApplication1/pickerNumberApplication1_main.iml" group="pickerNumberApplication1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pickerNumberApplication1/pickerNumberApplication1_test.iml" filepath="$PROJECT_DIR$/.idea/modules/pickerNumberApplication1/pickerNumberApplication1_test.iml" group="pickerNumberApplication1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/plusplus/plusplus.iml" filepath="$PROJECT_DIR$/.idea/modules/plusplus/plusplus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/randomNumberGen1/randomNumberGen1.iml" filepath="$PROJECT_DIR$/.idea/modules/randomNumberGen1/randomNumberGen1.iml" group="randomNumberGen1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/randomNumberGen1/randomNumberGen1_main.iml" filepath="$PROJECT_DIR$/.idea/modules/randomNumberGen1/randomNumberGen1_main.iml" group="randomNumberGen1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/randomNumberGen1/randomNumberGen1_test.iml" filepath="$PROJECT_DIR$/.idea/modules/randomNumberGen1/randomNumberGen1_test.iml" group="randomNumberGen1" />
+    </modules>
+  </component>
+</project>

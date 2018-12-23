@@ -1,0 +1,26 @@
+class Person {
+
+    String name;
+    Integer age;
+
+    Person(name, age){
+        this.name = name;
+        this.age = age;
+    }
+
+
+    def executeInside(Closure c){
+        //c.delegate = this
+        c()
+    }
+
+}
+
+def p1 = new Person("Test", 10);
+
+println p1.name
+println p1.age
+
+p1.executeInside{
+    println "$p1.name is executing closure"
+}

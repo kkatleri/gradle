@@ -1,0 +1,58 @@
+logger.info ">>>>> Learning Task Dependencies <<<<<<"
+
+defaultTasks 'doFinish'
+
+task doStartProcess{
+    doLast{
+        logger.info "$name is starting the process...OK!"
+    }
+}
+
+task doProcessStep1 (dependsOn: 'doStartProcess'){
+    doLast{
+        logger.info "$name is executing...OK!"
+    }
+}
+
+task doProcessStep2Part1 (dependsOn: [tasks.findAll{task-> task.name.startsWith('doProcessStep1')}]){
+    doLast{
+        logger.info "$name is executing...OK!"
+    }
+}
+
+task doProcessStep2Part2 (dependsOn: 'doProcessStep1'){
+    doLast{
+        logger.info "$name is executing...OK!"
+    }
+}
+
+task doFinish {
+    doLast{
+        logger.info "$name is executing...OK! with version=$version"
+    }
+}
+
+logger.info """${project.tasks.findAll {
+    task-> task.name.startsWith('doProcessStep1')
+}}"""
+
+if(Math.random() <0.5){
+    doProcessStep2Part2.dependsOn doProcessStep2Part1
+    doFinish.dependsOn doProcessStep2Part2, doProcessStep1
+}
+
+gradle.taskGraph.whenReady { taskGraph->
+    if(taskGraph.hasTask(doProcessStep2Part2)){
+        project.version = "1.0"
+    }else{
+        project.version = "1.0-SNAPSHOT"
+    }
+}
+
+gradle.taskGraph.beforeTask { task ->
+    logger.info "+++ Before task $task.name"
+}
+
+gradle.taskGraph.afterTask { task ->
+    logger.info "+++ After task $task.name"
+}

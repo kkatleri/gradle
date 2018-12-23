@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":pickerNumberApplication1:main" external.linked.project.path="$MODULE_DIR$/../../../../GradleMultiProjectDemo/allAboutNumbers/pickerNumberApplication1" external.root.project.path="$MODULE_DIR$/../../../../GradleMultiProjectDemo/allAboutNumbers" external.system.id="GRADLE" external.system.module.group="learn.gradle" external.system.module.type="sourceSet" external.system.module.version="0.0.1-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../../../GradleMultiProjectDemo/allAboutNumbers/pickerNumberApplication1/build/classes/java/main" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../GradleMultiProjectDemo/allAboutNumbers/pickerNumberApplication1/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../GradleMultiProjectDemo/allAboutNumbers/pickerNumberApplication1/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../GradleMultiProjectDemo/allAboutNumbers/pickerNumberApplication1/src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: org.apache.commons:commons-math3:3.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-core:2.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-api:2.5" level="project" />
+  </component>
+</module>

@@ -1,0 +1,16 @@
+import java.time.LocalDate
+
+defaultTasks 'hello'
+
+println "Starting to learn Gradle on "+ getDate()
+
+def sayHello(){
+    println "Hello Gradle World!!"
+}
+LocalDate getDate(){
+    LocalDate.now()
+}
+
+task('hello').doLast {
+    sayHello()
+}

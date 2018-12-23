@@ -1,0 +1,33 @@
+defaultTasks 'hello', 'hi'
+
+logger.info "build.gradle >>> This project is to learn Gradle Tasks."
+
+task hi
+
+project.hi.doLast {
+    logger.info ">>>> Hi!!"
+}
+
+task hello {
+
+    group= "Welcome"
+    description= "This is Hello task"
+
+    doLast{
+        logger.info "This is task $name. This is my 2nd defined action."
+    }
+    doFirst{
+        logger.info "This is task $name. This is my 1st defined action."
+    }
+}
+
+hello.doLast{
+    logger.info "This is task $name. This is my 4th defined action."
+}.doLast{
+    logger.info "This is task $name. This is my 3rd defined action."
+}.doFirst{
+    logger.info "This is task $name. This is my 5th defined action."
+}
+
+
+logger.info hello.group

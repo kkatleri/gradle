@@ -1,0 +1,6 @@
+include 'pickerNumberApplication1', 'plusplus', 'randomNumberGen1'
+
+rootProject.name = 'allAboutNumbers'
+
+
+

@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Implementation-Title: Gradle All Inclusive Jar
+Implementation-Version: 0.0.1-SNAPSHOT
+Created-By: Khujema Katleri
+Main-Class: com.learn.gradle.App
+

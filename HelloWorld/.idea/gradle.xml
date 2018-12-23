@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../DelegateDemo" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../Tools/gradle-4.1" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../DelegateDemo" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="createEmptyContentRootDirectories" value="true" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../GradleJavaDemo" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../GradleJavaDemo" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../GradleLifeCycleDemo" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../Tools/gradle-4.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../GradleLifeCycleDemo" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../GradleMultiProjectDemo/allAboutNumbers" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../Tools/gradle-4.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../GradleMultiProjectDemo/allAboutNumbers" />
+            <option value="$PROJECT_DIR$/../GradleMultiProjectDemo/allAboutNumbers/pickerNumberApplication1" />
+            <option value="$PROJECT_DIR$/../GradleMultiProjectDemo/allAboutNumbers/plusplus" />
+            <option value="$PROJECT_DIR$/../GradleMultiProjectDemo/allAboutNumbers/randomNumberGen1" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../GradleSampleWebApp" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../Tools/gradle-4.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../GradleSampleWebApp" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../GradleTaskDemo" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../GradleTaskDemo" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../Tools/gradle-4.1" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../TasksDependencyDemo" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../TasksDependencyDemo" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

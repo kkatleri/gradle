@@ -1,0 +1,7 @@
+rootProject.name = 'GradleLifeCycleDemo'
+println "settings.gradle >>> This is executed during initialization phase."
+
+logger.info " settings.gradle >>> $gradle.gradleVersion"
+logger.info " settings.gradle >>> $gradle.gradleHomeDir"
+logger.info " settings.gradle >>> $gradle.gradleUserHomeDir"
+

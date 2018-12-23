@@ -1,0 +1,40 @@
+//gradle -i (For enabling info logger)
+logger.info " build.gradle >>> This Project is to learn Gradle Life Cycle - @ ${gradle.timestamp()}"
+
+logger.info " build.gradle >>> $gradle.gradleVersion"
+logger.info " build.gradle >>> $gradle.gradleHomeDir"
+logger.info " build.gradle >>> $gradle.gradleUserHomeDir"
+
+logger.info " build.gradle >>> $buildFile"
+
+logger.info " build.gradle >>> ${relativePath(buildFile)}"
+
+logger.info " has property >>> ${gradle.hasProperty('buildFile')}"
+logger.info " has property >>> ${gradle.hasProperty('gradleVersion')}"
+
+if(hasProperty('gradlePropertiesProp')){
+    logger.info " gradlePropertiesProp : $gradlePropertiesProp"
+}else{
+    logger.info " gradlePropertiesProp does not exist"
+}
+
+//gradle -i -P commandLineProp=commandLineValue (For passing command line properties)
+if(hasProperty('commandLineProp')){
+    logger.info " commandLineProp : $commandLineProp"
+}else{
+    logger.info " commandLineProp does not exist"
+}
+
+project.ext.sayHello="Hello!"
+
+if(gradle.hasProperty('timestamp')){
+    logger.info " timestamp : ${gradle.timestamp()}"
+}else{
+    logger.info " timestamp does not exist"
+}
+
+if(hasProperty('sayHello')){
+    logger.info " sayHello : $sayHello"
+}else{
+    logger.info " sayHello does not exist"
+}
