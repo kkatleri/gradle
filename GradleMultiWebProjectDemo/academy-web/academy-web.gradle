@@ -1,0 +1,26 @@
+plugins {
+    id 'war'
+}
+
+description = 'Teaching Academy Web Application.'
+
+ext.LibertyPlugins = "C:\\wlp\\usr\\servers\\GradleMultiProjectWebApp\\dropins"
+
+
+war{
+	archiveName = 'academy-web.war'	
+}
+
+task deployToLiberty(type: Copy, dependsOn: 'build'){
+	from war
+    into "$LibertyPlugins"
+}
+
+dependencies {
+	implementation 'org.springframework:spring-webmvc:4.0.3.RELEASE'	
+	implementation 'jstl:jstl:1.2'
+	implementation 'log4j:log4j:1.2.17'	
+	implementation "javax.servlet:javax.servlet-api:3.0.1"
+    implementation 'org.apache.tiles:tiles-el:3.0.5'
+    implementation 'org.slf4j:slf4j-jdk14:1.7.25'
+}

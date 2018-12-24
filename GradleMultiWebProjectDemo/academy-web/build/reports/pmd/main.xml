@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.8.0" timestamp="2018-12-24T13:28:19.032">
+<file name="D:\Learnings\Gradle\projects\GradleMultiWebProjectDemo\academy-web\src\main\java\com\learn\gradle\config\Config.java">
+<violation beginline="21" endline="39" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.learn.gradle.config" class="Config" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="24" endline="30" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Documentation" package="com.learn.gradle.config" class="Config" method="setupViewResolver" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Public method and constructor comments are required
+</violation>
+<violation beginline="25" endline="25" begincolumn="17" endcolumn="74" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.learn.gradle.config" class="Config" method="setupViewResolver" variable="resolver" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'resolver' could be declared final
+</violation>
+<violation beginline="34" endline="36" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Documentation" package="com.learn.gradle.config" class="Config" method="studentController" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Public method and constructor comments are required
+</violation>
+</file>
+<file name="D:\Learnings\Gradle\projects\GradleMultiWebProjectDemo\academy-web\src\main\java\com\learn\gradle\config\WebInitializer.java">
+<violation beginline="15" endline="29" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.learn.gradle.config" class="WebInitializer" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="17" endline="17" begincolumn="31" endcolumn="59" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.learn.gradle.config" class="WebInitializer" method="onStartup" variable="servletContext" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'servletContext' is not assigned and could be declared final
+</violation>
+<violation beginline="17" endline="27" begincolumn="16" endcolumn="5" rule="CommentRequired" ruleset="Documentation" package="com.learn.gradle.config" class="WebInitializer" method="onStartup" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Public method and constructor comments are required
+</violation>
+<violation beginline="19" endline="19" begincolumn="9" endcolumn="95" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.learn.gradle.config" class="WebInitializer" method="onStartup" variable="ctx" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'ctx' could be declared final
+</violation>
+<violation beginline="23" endline="23" begincolumn="9" endcolumn="93" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.learn.gradle.config" class="WebInitializer" method="onStartup" variable="servlet" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'servlet' could be declared final
+</violation>
+</file>
+<configerror rule="LoosePackageCoupling" msg="No packages or classes specified"/>
+</pmd>
